@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200;1,400&display=swap" rel="stylesheet">
+    <title>University Website</title>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="course.html">COURSE</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Our Certificate and Online Program for 2021</h1>
+
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Program For 2021</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia inventore voluptates commodi. Labore quae illum dolorum quam magni est qui non placeat pariatur veniam? Dolorum ut nisi laudantium architecto iure possimus nulla cumque
+                    eius expedita iusto facilis ducimus tenetur porro rem quaerat reprehenderit vel at, odio minima temporibus. Suscipit, dolor!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate labore, esse nam culpa eum eos illo quisquam et non voluptas quos distinctio numquam quas officiis quod excepturi quis voluptatem maiores placeat qui accusantium. Cupiditate
+                    repellendus blanditiis aliquid ullam beatae illo quaerat reiciendis quisquam facere, labore totam suscipit similique, laudantium placeat eos! Obcaecati dolore animi expedita nobis eos, consequatur magni laudantium.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sed adipisci sint. Amet autem atque maiores harum dolorem vitae corrupti! Explicabo iusto, nulla, incidunt quisquam totam dolore deleniti commodi natus asperiores quos mollitia
+                    temporibus laboriosam tenetur autem illo odit obcaecati
+
+                </p>
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button class="hero-btn red-btn" type="submit">POST COMMENT</button>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. ducimus dolorum minus magni, <br> corporis, pariatur facilis eos dolore delectus mollitia neque. Ad tempore quas accusantium ullam?</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <p>
+            Made with <i class="fa fa-heart"></i> by Syed Ejaj
+        </p>
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
